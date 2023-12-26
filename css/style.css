@@ -1,0 +1,273 @@
+body {
+  font-family: 'Raleway', sans-serif; }
+
+/* header-section st */
+header {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/header_bg.jpg"); }
+  header .header_top {
+    position: relative;
+    z-index: 1;
+    padding: 20px 0px; }
+    header .header_top:after {
+      background-color: #4a555c;
+      position: absolute;
+      opacity: 0.6;
+      content: '';
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px;
+      z-index: -1; }
+  header .logo {
+    margin-top: 10px; }
+    header .logo h2 {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 700; }
+      header .logo h2 span {
+        color: #4bcaff; }
+  header nav ul li a {
+    color: #fff !important;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    font-size: 15px; }
+    header nav ul li a:hover {
+      border: 1px solid #4bcaff;
+      color: #4bcaff !important; }
+  header .slogan_text {
+    width: 80%;
+    margin: 200px auto; }
+    header .slogan_text h2 {
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 300; }
+      header .slogan_text h2 span {
+        background: #4a555c;
+        font-size: 30px;
+        padding: 2px 15px;
+        margin-top: 10px;
+        display: inline-block; }
+
+/* header-section ed */
+/* services-section st */
+.section_title h2 {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  font-weight: 200;
+  font-size: 30px;
+  margin-bottom: 30px; }
+  .section_title h2::after {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #fff; }
+
+.service_section {
+  background-color: #4bcaff;
+  color: #fff;
+  padding: 60px 0px; }
+
+h3 {
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-weight: 700px;
+  font-size: 24px; }
+
+p {
+  font-size: 12px; }
+
+/* services-section ed */
+/* portfolio-section st */
+.portfolio_section {
+  padding: 60px 0px; }
+  .portfolio_section .port_title h2 {
+    color: #4a555c; }
+
+.port_title {
+  color: #4a555c; }
+
+.portfolio_img {
+  background: #ccc;
+  width: 100%;
+  margin-top: 20px;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  .portfolio_img:hover .portfolio_hover {
+    display: block; }
+  .portfolio_img .portfolio_hover {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    display: none; }
+    .portfolio_img .portfolio_hover:before {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: #000;
+      opacity: .5;
+      content: '';
+      z-index: -1; }
+    .portfolio_img .portfolio_hover i {
+      color: #fff;
+      margin-top: 45%; }
+
+.portfolio_bg1 {
+  background-image: url("../img/portfolio1.png"); }
+
+.portfolio_bg2 {
+  background-image: url("../img/portfolio2.png"); }
+
+.portfolio_bg3 {
+  background-image: url("../img/portfolio1.png"); }
+
+.portfolio_bg4 {
+  background-image: url("../img/portfolio2.png"); }
+
+.portfolio_bg5 {
+  background-image: url("../img/portfolio1.png"); }
+
+.portfolio_bg6 {
+  background-image: url("../img/portfolio2.png"); }
+
+.portfolio_bg7 {
+  background-image: url("../img/portfolio1.png"); }
+
+.portfolio_bg8 {
+  background-image: url("../img/portfolio2.png"); }
+
+.filter_menu ul li a {
+  text-transform: uppercase;
+  color: #4a555c;
+  font-weight: 700;
+  font-size: 14px; }
+
+/* portfolio-section ed */
+/* video-section st */
+.video_section {
+  background-color: #4a555c;
+  padding: 60px 0px; }
+  .video_section .video_content p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100; }
+
+.video_btn button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background: #4a555c; }
+
+/* video-section ed */
+/* twitter section st */
+.twitter {
+  background-color: #4bcaff;
+  padding: 60px 0px; }
+  .twitter .icon {
+    color: #fff;
+    text-align: right; }
+  .twitter p {
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 24px; }
+
+/* twitter section end */
+/* social madia section st */
+.social_media {
+  background-image: url(/img/about_bg.jpg);
+  padding: 60px 0px; }
+  .social_media p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px; }
+  .social_media .social_icon i {
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 40px;
+    padding: 10px;
+    margin: 8px; }
+
+/* social madia section end */
+/* Testimonials section st */
+.Testimonials {
+  background-color: #fff;
+  padding: 60px 0px; }
+  .Testimonials h2 {
+    color: black !important; }
+  .Testimonials .icon {
+    text-align: right;
+    font-size: 25px; }
+  .Testimonials p {
+    font-size: 28px; }
+  .Testimonials .author {
+    color: #4bcaff;
+    font-weight: 500; }
+
+/* Testimonials section end */
+/* contact and form section start */
+.contact_form {
+  background-image: url(/img/contact_bg.jpg);
+  padding: 60px 0px;
+  color: #fff; }
+  .contact_form .texxt {
+    margin-bottom: 30px; }
+  .contact_form input[type="text"] {
+    background: transparent;
+    border: solid 2px white;
+    width: 535px;
+    height: 50px; }
+  .contact_form input[type="email"] {
+    background: transparent;
+    border: solid 2px white;
+    width: 535px;
+    height: 50px; }
+  .contact_form label {
+    text-transform: uppercase; }
+  .contact_form textarea {
+    width: 1100px;
+    height: 220px;
+    background: transparent;
+    border: solid 2px white; }
+  .contact_form .contact_con {
+    font-size: 14px;
+    font-weight: 300; }
+  .contact_form button {
+    background-color: #4bcaff !important;
+    text-align: center;
+    width: 150px !important;
+    height: 50px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    border: solid 0px;
+    margin-left: 12px;
+    font-weight: 500; }
+
+/* contact and form section End */
+/* footer section start */
+footer {
+  background-color: #4a555c;
+  padding: 60px 0px;
+  text-align: center;
+  color: #bebebe;
+  font-size: 26px; }
+
+/* footer section end */
+
+/*# sourceMappingURL=style.css.map */
